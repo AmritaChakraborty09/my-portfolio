@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.hero {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: rgb(255, 196, 250);
+
+}
+
+nav {
+    display: flex;
+    width: 90vw;
+    padding: 0;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    color: rgb(163, 163, 252);
+}
+
+.detel {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.detel h1 {
+    font-size: 50px;
+    font-family: cursive;
+    color: rgb(196, 196, 254);
+    margin-bottom: 13px;
+
+}
+
+span {
+    color: rgb(201, 174, 255);
+    font-family: cursive;
+
+}
+
+.detel p {
+    color: rgb(244, 68, 194);
+    line-height: 32px;
+
+}
+
+.download {
+    padding: 20px 50px;
+    font-size: larger;
+    width: 150px;
+    background-color: rgb(210, 52, 250);
+    border-radius: 50px;
+    color: rgb(0, 0, 0)
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(206, 2, 2, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    image-resolution: 100px;
+}
+
+#about_me {
+    background-color: #747474;
+}
+
+
+.img {
+    width: 50%;
+    align-items: center;
+    border-radius: 10px 100px / 120px;
+    border-right-style: solid;
+    border-color: rgb(196, 115, 227);
+    display: inline-flexbox;
+    padding-left: 15px;
+}
+
+.col {
+    color: aliceblue;
+    padding-left: 20em;
+    padding-right: 0.5em;
+    text-align: right;
+    text-align: justify;
+    margin: 0;
+    top: 1.25em
+}
+
+.card-container {
+    display: flex;
+    /* displays the cards in a row */
+    flex-wrap: wrap;
+    /* allows the cards to wrap to the next line if they don't fit in the current row */
+    justify-content: center;
+    color: aliceblue;
+    gap: 30px;
+    width: 100%;
+}
+
+.card {
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px grey;
+    /* sets the width of each card to 30% of the container */
+}
+
+.card-image {
+    height: 20vh;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    /* sets the width of the image to 70% of the card */
+}
+.card-description{
+    height:15vh;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+.sec1 {
+    color: rgb(194, 194, 194);
+    text-align: left;
+    font-size: small;
+    justify-content: right;
+    padding-left: 110px;
+
+}
+.image11{
+    width:150%;
+    border-radius: 10px 100px / 120px ;
+    border-right-style: solid;
+    border-color: rgb(255, 57, 242);
+    display:flex;
+    justify-content:first baseline;
+    top:20px;
+}
+.parentclass{
+    display:flex;
+            justify-content:center;
+            flex-direction:row;
+            align-items: center;
+}
+.project_heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+
+}
+.detel_container{
+    height:60vh;
+    width:60vw;
+    align-self:center;
+    border-radius:70px;
+    padding:50px;
+    -webkit-box-shadow: -1px 10px 111px 0px rgba(194,39,194,1);
+    -moz-box-shadow: -1px 10px 111px 0px rgba(194,39,194,1);
+    box-shadow: -1px 10px 111px 0px rgba(194,39,194,1);
+
+}
