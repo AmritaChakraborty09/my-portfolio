@@ -1,4 +1,4 @@
-* {
+ *{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -88,7 +88,7 @@ span {
 }
 
 #about_me {
-    background-color: #747474;
+    background-color: #262020;
 }
 
 
@@ -186,12 +186,14 @@ span {
     justify-content: center;
     flex-direction: row;
     align-items: center;
-}
 
+}
+#project{
+    background-color: #090909;
+}
 .project_heading {
     font-family: 'Roboto', sans-serif;
-    font-size: 60px;
-
+    font-size: 30px;
 }
 
 .detel_container {
@@ -220,7 +222,7 @@ span {
     margin-right: 50px;
     margin-bottom: 50px;
     width: calc(110% - 20%);
-    height: calc(180vh -100vh);
+    height: calc(180vh -90vh);
     -webkit-box-shadow: -1px 10px 111px 0px rgb(197, 141, 253);
     -moz-box-shadow: -1px 10px 111px 0px rgb(246, 180, 246);
     box-shadow: -1px 10px 111px 0px rgb(240, 10, 240);
