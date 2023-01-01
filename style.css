@@ -222,7 +222,7 @@ span {
     margin-right: 50px;
     margin-bottom: 50px;
     width: calc(110% - 20%);
-    height: calc(180vh -90vh);
+    height: calc(180vh -70vh);
     -webkit-box-shadow: -1px 10px 111px 0px rgb(197, 141, 253);
     -moz-box-shadow: -1px 10px 111px 0px rgb(246, 180, 246);
     box-shadow: -1px 10px 111px 0px rgb(240, 10, 240);
